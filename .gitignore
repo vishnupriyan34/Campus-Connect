@@ -1,0 +1,18 @@
+# Campus Connect Git Ignore Configurations
+
+# Ignore Environment Configuration
+.env
+
+# Ignore Composer Vendor Directory
+vendor/
+composer.lock
+
+# Ignore Uploaded Student Documents (keep directories using .gitkeep)
+uploads/resumes/*
+!uploads/resumes/.gitkeep
+uploads/offers/*
+!uploads/offers/.gitkeep
+
+# Ignore Local Mail Logs & Scratch Files
+scratch/mail.log
+scratch/*.log
