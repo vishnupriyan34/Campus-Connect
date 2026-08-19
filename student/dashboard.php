@@ -1,5 +1,5 @@
 <?php
-// Student Dashboard
+
 
 $page_title = "Student Dashboard - Campus Connect";
 $active_nav = "dashboard";
