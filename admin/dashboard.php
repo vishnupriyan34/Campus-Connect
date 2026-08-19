@@ -36,7 +36,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['action']) && $_POST['
             $delivery_method = 'LogFile';
             
             foreach ($allUsers as $user) {
-                // Send email
+                
                 $email_body = "
                     <div style='font-family: Arial, sans-serif; max-width: 600px; margin: 0 auto; padding: 20px; border: 1px solid #cbd5e1; border-radius: 8px;'>
                         <h2 style='color: #a855f7; border-bottom: 2px solid #eef2f6; padding-bottom: 10px;'>Campus Connect announcement</h2>
