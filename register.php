@@ -22,7 +22,7 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST') {
     $backlog_count = intval($_POST['backlog_count'] ?? 0);
     $skills = trim($_POST['skills'] ?? '');
 
-    // Basic Validation
+    
     if (empty($name) || empty($email) || empty($password) || empty($department)) {
         $error = "Please fill in all required fields.";
     } elseif (!filter_var($email, FILTER_VALIDATE_EMAIL)) {
